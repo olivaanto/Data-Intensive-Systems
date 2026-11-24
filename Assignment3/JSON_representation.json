@@ -1,0 +1,60 @@
+
+{
+  "customers": [
+    {
+      "CID": 1,
+      "NAME": "Antonio Oliva",
+      "ADDRESS": {
+        "STREET": "...",
+        "CITY": "Lappeenranta",
+        "STATE": "Etelä-Karjala",
+        "COUNTRY": "Finland"
+      },
+      "PHONES": [],
+      "ORDERS": [
+        {
+          "OID": 100,
+          "O_DATE": "12/04/2026",
+          "O_TOTAL": 20,
+          "ORDER_ITEMS": [
+            {
+              "LINE_ID": 1,
+              "PID": 5,
+              "QTY": 2
+            },
+            {
+              "LINE_ID": 2,
+              "PID": 12,
+              "QTY": 1
+            }
+          ]
+        },
+        {
+          "OID": 250,
+          "O_DATE": "08/10/2026",
+          "O_TOTAL": 10,
+          "ORDER_ITEMS": [
+            {
+              "LINE_ID": 1,
+              "PID": 12,
+              "QTY": 1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  
+  "products": [
+    {
+      "PID": 5,
+      "P_NAME": "Notebook",
+      "PRICE": 5.0
+    },
+    {
+      "PID": 12,
+      "P_NAME": "Markers",
+      "PRICE": 10.0
+    }
+  ]
+}
